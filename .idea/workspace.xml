@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bd4e26db-1556-4757-9c12-bf6a59954054" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/IngredientDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/IngredientDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/OrderStatusDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/PizzaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/PizzaDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DAO/UserDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Ingredient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/OrderStatus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/Pizza.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/PizzaOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/PizzaType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/models/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/IngredientService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/services/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/AddIngredientsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/LogoutServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/OrderConfirmationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/OrderModificationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/OrderServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/OrderStatusServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/OrderSummaryServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/PizzaSelectionServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/UserLoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/servlets/UserRegistrationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/add-ingredients.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/admin-dashboard.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/change-password.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/create-order.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/edit-profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/error.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/logout.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-confirmation.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-history.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-modification.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-status.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/order-summary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/pizza-selection.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-profile.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/user-registration.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VwKeH8AhulvYvtB2UcHsT981yo" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/Studing/IntelliJ Projects/orderPizza/src/main/webapp",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Studing\IntelliJ Projects\orderPizza\src\main\webapp" />
+      <recent name="D:\Studing\IntelliJ Projects\orderPizza\src\main" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Studing\IntelliJ Projects\orderPizza\src\main\java" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bd4e26db-1556-4757-9c12-bf6a59954054" name="Changes" comment="" />
+      <created>1695741802839</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1695741802839</updated>
+      <workItem from="1695741804025" duration="1087000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
