@@ -13,7 +13,7 @@ import models.PizzaOrder;
 import java.io.IOException;
 import java.sql.Connection;
 
-@WebServlet("/order-summary.jsp")
+@WebServlet("/order-summary")
 public class OrderSummaryServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
@@ -37,7 +37,7 @@ public class OrderSummaryServlet extends HttpServlet {
         request.setAttribute("selectedPizza", selectedPizza);
 
         // Forward the request to the order summary page (replace with your actual JSP page name)
-        request.getRequestDispatcher("/order-summary.jsp.jsp").forward(request, response);
+        request.getRequestDispatcher("/order-summary.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

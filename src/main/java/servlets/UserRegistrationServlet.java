@@ -11,13 +11,13 @@ import models.User;
 import java.io.IOException;
 import java.sql.Connection;
 
-@WebServlet("/register")
+@WebServlet("/user-registration")
 public class UserRegistrationServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         // Forward the request to the registration page (replace with your actual registration page)
-        request.getRequestDispatcher("/register.jsp").forward(request, response);
+        request.getRequestDispatcher("/user-registration.jsp").forward(request, response);
     }
 
     protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
@@ -44,12 +44,12 @@ public class UserRegistrationServlet extends HttpServlet {
             } else {
                 // User registration failed, display an error message
                 request.setAttribute("errorMessage", "User registration failed. Please try again.");
-                request.getRequestDispatcher("/register.jsp").forward(request, response);
+                request.getRequestDispatcher("/user-registration.jsp").forward(request, response);
             }
         } else {
             // Registration data is invalid, display an error message
             request.setAttribute("errorMessage", "Invalid registration data. Please try again.");
-            request.getRequestDispatcher("/register.jsp").forward(request, response);
+            request.getRequestDispatcher("/user-registration.jsp").forward(request, response);
         }
     }
 }
